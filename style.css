@@ -1,4 +1,45 @@
-#width {
-	display: none;
-	width:100%;
+/* .gutter-left {
+margin-left:15px;
+padding-left:15px;
+} */
+/*  @media only screen and (min-width: 577px) {
+	.gutter-left {
+		margin-left:0px;
+		padding-left:0px;
+	}
 }
+*/
+.gutter-top {
+	padding-top: 15px;
+	margin-top: 15px;
+}
+
+.gutter-bottom {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 900px) {
+ 	.gutter-left {
+	margin-left: 20px;
+	padding-left: 20px;
+	}
+
+	.resize75 {
+	width:75%;
+	margin-left:6.5%;
+	padding-left:6.5%;
+}
+
+ 	.gutter-left-2 {
+	padding-left: 10px;
+	margin-left: 10px;
+} 
+
+	.gutter-top {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+}  
+
